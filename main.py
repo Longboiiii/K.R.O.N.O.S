@@ -27,9 +27,6 @@ def send_picture(message):
     randomPic = f'https://picsum.photos/id/{random.randint(1, 1100)}/300/300'
     bot.send_photo(message.chat.id, randomPic)
 
-# TASK3
-
-
 bot.infinity_polling()
 
-# python main.py
+
