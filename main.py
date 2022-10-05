@@ -21,7 +21,6 @@ def send_pasta(message):
     bot.send_message(message.chat.id, pastaArr[random.randint(0, pastaArrLen)])
 
 # TASK2
-randomPic = f'https://picsum.photos/id/{random.randint(1, 1100)}/300/300'
 @bot.message_handler(commands=['sendPic'])
 def send_picture(message):
     randomPic = f'https://picsum.photos/id/{random.randint(1, 1100)}/300/300'
